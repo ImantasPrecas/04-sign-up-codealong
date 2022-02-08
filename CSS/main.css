@@ -24,6 +24,10 @@ body {
   float: left;
   color: #fff;
   background-color: #0054ac;
+  background-image: url(../img/main-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .container > .right-column {
