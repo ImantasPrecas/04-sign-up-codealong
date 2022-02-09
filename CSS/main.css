@@ -85,7 +85,12 @@ body {
 }
 
 .right-column span {
+  vertical-align: middle;
+  margin-left: 30px;
 }
 
 .right-column a {
+  vertical-align: middle;
+  color: #035dc8;
+  text-decoration: none;
 }
