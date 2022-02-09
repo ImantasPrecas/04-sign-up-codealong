@@ -27,6 +27,7 @@ Course author: [Rimantas Belovas](https://www.youtube.com/watch?v=gBV1o9-q7A0&li
 - pseudo selector :hover
 - background-image-repeat-position-size
 - transform (rotate, translate)
+- multi pages
 
 ## Authors
 
