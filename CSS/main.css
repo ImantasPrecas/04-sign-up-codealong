@@ -16,9 +16,13 @@ body {
   margin-top: 100px;
   margin-left: calc(50% - 400px);
   display: inline-block;
+  position: relative;
 }
 
 .container > .left-column {
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
   width: 40%;
   padding: 40px;
   float: left;
@@ -33,7 +37,7 @@ body {
 .container > .right-column {
   width: 60%;
   padding: 60px;
-  float: left;
+  float: right;
   background-color: #fff;
   position: relative;
 }
@@ -43,6 +47,10 @@ body {
 }
 
 .bottom-links {
+  position: absolute;
+  bottom: 30px;
+  left: 49px;
+  right: 40px;
   color: #fff8;
 }
 
