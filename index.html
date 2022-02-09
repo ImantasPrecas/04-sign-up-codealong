@@ -32,9 +32,69 @@
     />
     <meta name="msapplication-TileColor" content="#2d89ef" />
     <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./CSS/form.css" />
+    <link rel="stylesheet" href="./CSS/main.css" />
     <title>SignUp</title>
   </head>
+
   <body>
-    COMING SOON...
+    <main class="container">
+      <div class="left-column">
+        <h1 class="main-title">Sign Up</h1>
+        <footer class="bottom-links">
+          <a class="link" href="#">Privacy policy</a>
+          <span>&amp;</span>
+          <a class="link" href="#">terms of use</a>
+        </footer>
+      </div>
+
+      <div class="right-column">
+        <div class="close">X</div>
+
+        <form class="form">
+          <div class="form-row">
+            <label for="username">Username</label>
+            <input
+              id="username"
+              type="text"
+              placeholder="Enter username"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="email">E-mail</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Enter e-mail"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="pass">Password</label>
+            <input
+              id="pass"
+              type="password"
+              placeholder="Enter password"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="repass">Repeat password</label>
+            <input
+              id="repass"
+              type="password"
+              placeholder="Repeat your password"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <button type="submit">Get started</button>
+            <span>or</span>
+            <a href="#">Sign In</a>
+          </div>
+        </form>
+      </div>
+    </main>
   </body>
 </html>

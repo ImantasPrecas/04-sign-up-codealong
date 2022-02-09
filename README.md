@@ -19,6 +19,14 @@ Course author: [Rimantas Belovas](https://www.youtube.com/watch?v=gBV1o9-q7A0&li
 - CSS position absolute
 - CSS blur effects
 
+---
+
+- reset
+- box-sizing
+- html entities (kaip atvaizduoti tam tikrus simbolius narsykleje)
+- pseudo selector :hover
+- background-image-repeat-position-size
+
 ## Authors
 
 Imantas: [Github](https://github.com/ImantasPrecas)
