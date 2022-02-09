@@ -27,5 +27,19 @@
   font-size: 20px;
 }
 
-button {
+div > button {
+  background: rgb(3, 93, 200);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 93, 200, 1) 0%,
+    rgba(58, 126, 207, 1) 100%
+  );
+  /* box-sizing: border-box; */
+  color: white;
+  padding: 5px 40px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  border-radius: 15px;
+  border: none;
 }
